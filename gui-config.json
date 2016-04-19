@@ -1,0 +1,52 @@
+{
+  "index": -1, 
+  "localPort": 1080, 
+  "logViewer": {
+    "fontName": "Consolas", 
+    "width": 400, 
+    "top": 527, 
+    "toolbarShown": false, 
+    "topMost": false, 
+    "height": 201, 
+    "bgColor": "Black", 
+    "fontSize": 8.25, 
+    "wrapText": false, 
+    "textColor": "White", 
+    "left": 966
+  }, 
+  "shareOverLan": false, 
+  "global": false, 
+  "enabled": true, 
+  "strategy": "com.shadowsocks.strategy.ha", 
+  "useOnlinePac": false, 
+  "availabilityStatistics": false, 
+  "autoCheckUpdate": false, 
+  "configs": [
+    {
+      "auth": false, 
+      "server": "us1.iss.tf", 
+      "server_port": "443", 
+      "remarks": "1", 
+      "password": "11214974", 
+      "method": "aes-256-cfb"
+    }, 
+    {
+      "auth": false, 
+      "server": "hk2.iss.tf", 
+      "server_port": "8989", 
+      "remarks": "", 
+      "password": "42423617", 
+      "method": "aes-256-cfb"
+    }, 
+    {
+      "auth": false, 
+      "server": "jp3.iss.tf", 
+      "server_port": "443", 
+      "remarks": "", 
+      "password": "45163514", 
+      "method": "aes-256-cfb"
+    }
+  ], 
+  "pacUrl": null, 
+  "isDefault": false
+}
